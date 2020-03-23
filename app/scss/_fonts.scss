@@ -21,7 +21,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -138,6 +138,9 @@
 }
 .icon-meh-o:before {
   content: "\f11a";
+}
+.icon-location-arrow:before {
+  content: "\f124";
 }
 .icon-cny:before {
   content: "\f157";
